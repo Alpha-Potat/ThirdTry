@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 TOKEN=getenv("TOKEN_BOT")
-url="nikita-slomal.ru:8445"
+url="nikita-slomal.ru:8447"
 path='./cert/YOURPUBLIC.pem'
 
 
