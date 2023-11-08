@@ -38,6 +38,6 @@ if __name__=="__main__":
     setWebhook()
     context = ssl.SSLContext(ssl.PROTOCOL_TLSv1_2)
     context.load_cert_chain(WEBHOOK_SSL_CERT, WEBHOOK_SSL_PRIV)
-    uvicorn.run(app=app, host="0.0.0.0", port=8443, ssl_keyfile=WEBHOOK_SSL_PRIV, ssl_certfile=WEBHOOK_SSL_CERT)
+    uvicorn.run(app=app, host="0.0.0.0", port=8445, ssl_keyfile=WEBHOOK_SSL_PRIV, ssl_certfile=WEBHOOK_SSL_CERT)
 
 
